@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Todo App
 
-## Getting Started
+A simple Todo App built with Next.js and Capacitor. Add, edit, and delete your tasks easily with a clean interface.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Add new tasks
+- Edit existing tasks
+- Delete tasks
+- Works on web and mobile (via Capacitor)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Download
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+👉 [Download Debug version (APK)](https://github.com/Mikku44/todo-app/blob/master/app-debug.apk)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+![App Icon](https://github.com/Mikku44/todo-app/blob/master/icons/icon-512.webp)
 
-## Learn More
+## Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- Next.js (React)
+- Capacitor (for Android/iOS builds)
+- LocalStorage for data persistence
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Run Locally
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Clone the repo:
+   git clone https://github.com/Mikku44/todo-app.git
 
-## Deploy on Vercel
+2. Install dependencies:
+   npm install
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. Start the development server:
+   npm run dev
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. To build mobile app with Capacitor:
+   npx cap add android
+   npx cap open android
+
+## License
+
+MIT License
