@@ -36,6 +36,13 @@ A simple Todo App built with Next.js and Capacitor. Add, edit, and delete your t
    npx cap add android
    npx cap open android
 
+## 📺 YouTube Tutorial (ภาษาไทย)
+
+ดูวิดีโอสอนการสร้าง Todo App นี้ได้ที่:
+
+👉 https://www.youtube.com/watch?v=AjnpyJjwxAU
+
+
 ## License
 
 MIT License
